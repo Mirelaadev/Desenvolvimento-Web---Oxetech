@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+div{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+#conteiner-web{
+    /* Unidade absoluta nao pega nenhum outro elemento como referencia -
+    fixa e nao é relativa a nenhum elemento*/
+    width: 500px;
+}
+
+#conteiner-mobile{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.secao-mobile{
+    background-color: #e3e3e3;
+    margin-top: 10px;
+    width: 50%;
+
+    /* unidade relativa baseada no tamanho da fonte do elemento raiz(html) para definir o elemrnto */
+    width: 10rem;
+
+    /* unidade relativa baseada no tamanho da fonte do elemento pai para definir o elemrnto */
+    width: 10em;
+}
